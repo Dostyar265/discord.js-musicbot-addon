@@ -2,7 +2,7 @@ const ytdl = require('ytdl-core');
 const {YTSearcher} = require('ytsearcher');
 const ytpl = require('ytpl');
 const Discord = require('discord.js');
-const PACKAGE = require('./package.json');
+const PACKAGE = require('age.json');
 
 exports.start = (client, options) => {
 try {
